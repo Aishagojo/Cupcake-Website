@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>CakeWebsite</title>
+      <link rel="stylesheet" href="style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+    <section class="container">
+            <nav>
+         <div class="menu-icon">
+            <span class="fas fa-bars"></span>
+         </div>
+         <div class="logo">
+           Co.Cupcakes
+         </div>
+         <div class="nav-items">
+          <li><a href="#Cake-home">Home</a></li>
+          <li><a href="#catalog">catalog</a></li>
+          <li><a href="#specialOfferSection">Special offer</a></li>
+          <li><a href="#locationcontainer">Location</a></li>
+          <li><a href="#contact-us">Contact</a></li>
+          
+         </div>
+         <div class="search-icon">
+            <span class="fas fa-search"></span>
+         </div>
+         <div class="cancel-icon">
+            <span class="fas fa-times"></span>
+         </div>
+         <form action="#">
+            <input type="search" class="search-data" placeholder="Search" required>
+            <button type="submit" class="fas fa-search"></button>
+         </form>
+
+      </nav>
+      <main id="Cake-home1">
+  
+        <div class="Cake-home">
+            <div class="home-text">
+                <h1>Co.Cupcakes</h1>
+                <p>Order online for delivery, celebrate everything with cake!</p>
+                <button class="button">Order now</button>
+            </div>
+        </div>
+    </main>
+
+    <section id="catalog">
+        <h1>Catalog</h1>
+        <div class="categories-button" onclick="showCategory('Cake')">
+            <button type="submit">Cake</button>
+        </div>
+        <div class="categories-button" onclick="showCategory('Cupcake')">
+            <button type="submit">Cupcake</button>
+        </div>
+        <div class="categories-button" onclick="showCategory('Cookies')">
+            <button type="submit">Cookies</button>
+        </div>
+        <div class="categories-button" onclick="showCategory('Brownie')">
+            <button type="submit">Brownie</button>
+        </div>
+        <div class="categories-button" onclick="showCategory('Macaroon')">
+            <button type="submit">Macaroon</button>
+        </div>
+        <div class="categories-button" onclick="showCategory('Wedding Cake')">
+            <button type="submit">Wedding Cake</button>
+        </div>
+        <!-- Content area for displaying generated content -->
+        <div id="generatedContent"></div>
+    </section>
+    
+
+<section id="specialOfferSection">
+    <div id="specialOfferContainer"></div>
+</section>
+
+
+
+<section id="locationcontainer">
+    <h1> Location</h1>
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255282.3586909438!2d36.682577756669446!3d-1.3028602759461267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi!5e0!3m2!1sen!2ske!4v1708460342910!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+<section class="Contact-container">
+    <h1 class="life">
+        Life is too short to say no to Cake!</h1>
+</section>
+
+<!----<section id="contact-us">
+    <div class="contact-container">
+      <h2>Contact Us</h2>
+      <p>Have a question or want to place an order? Reach out to us!</p>
+
+      <form action="#" method="post" class="contact-form">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section> --->
+
+
+<footer class="expensive-footer">
+    <div class="footer-content">
+      <p>🍰 Indulge in Elegance and Savor Sweet Moments 🍰</p>
+      <p>Welcome to <span class="shop-name">Co.Cupcakes</span>, where every bite is a celebration!</p>
+
+      <div class="footer-sections">
+        <div class="about-section">
+          <h3>About Us</h3>
+          <p>Discover the art of sweetness at Your Cake Shop. Our passion for crafting exquisite cakes ensures each bite is a delightful experience.</p>
+        </div>
+
+        <div class="contact-section">
+          <h3>Contact</h3>
+          <p>Reach out to us:</p>
+          <p>Email: info@yourcakeshop.com</p>
+          <p>Phone: +1 (123) 456-7890</p>
+        </div>
+
+        <div class="company-section">
+          <h3>Company Information</h3>
+          <p>Address: 123 Delicious Street, Sweetville</p>
+          <p>Follow us on social media:</p>
+          <p>Facebook | Instagram | Twitter</p>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+</section>
+
+
+    
+     </body>
+     <script src="./App.js"></script>
+     </html>
+    
