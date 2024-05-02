@@ -1,11 +1,12 @@
-#Cupcakes 
+##Cupcakes 
 
 Welcome to the  cupcake website! This website offerrs a delightful platform to explor a veriety of cupcakes , flavors
 
---* Teachnologies used 
+## Teachnologies used 
 -Html
 -CSS
 -JAVASCRIPT
+
 ## Getting Started
 
 To view this website, simply open the `index.html` file in your preferred web browser.
