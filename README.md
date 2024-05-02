@@ -1,4 +1,4 @@
-##Cupcakes 
+## Cupcakes 
 
 Welcome to the  cupcake website! This website offerrs a delightful platform to explor a veriety of cupcakes , flavors
 
