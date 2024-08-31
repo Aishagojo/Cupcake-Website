@@ -30,7 +30,7 @@ function showCategory(category) {
 
   var generatedContent = document.getElementById("generatedContent");
 
-  // Clear previous content
+
   generatedContent.innerHTML = "";
 
   // Array of objects, each containing image source, name, and price for a specific category
@@ -136,7 +136,7 @@ function showSpecialOfferBox() {
 
   specialOfferContainer.innerHTML = "";
 
-  // Special offer details
+
   var specialOffer = {
       name: 'Special Offer Cake',
       image: 'images/specel offer.jpg',
